@@ -1,0 +1,161 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="src\UniversityAdmin.Domain\Common\bin\**" />
+    <Compile Remove="src\UniversityAdmin.Domain\Common\Builders\**" />
+    <Compile Remove="src\UniversityAdmin.Shared\Helpers\bin\**" />
+    <Compile Remove="src\UniversityAdmin.Shared\Helpers\Constants\**" />
+    <Compile Remove="src\UniversityAdmin.Shared\Helpers\Exceptions\**" />
+    <Compile Remove="src\UniversityAdmin.Shared\Helpers\Extensions\**" />
+    <EmbeddedResource Remove="src\UniversityAdmin.Domain\Common\bin\**" />
+    <EmbeddedResource Remove="src\UniversityAdmin.Domain\Common\Builders\**" />
+    <EmbeddedResource Remove="src\UniversityAdmin.Shared\Helpers\bin\**" />
+    <EmbeddedResource Remove="src\UniversityAdmin.Shared\Helpers\Constants\**" />
+    <EmbeddedResource Remove="src\UniversityAdmin.Shared\Helpers\Exceptions\**" />
+    <EmbeddedResource Remove="src\UniversityAdmin.Shared\Helpers\Extensions\**" />
+    <None Remove="src\UniversityAdmin.Domain\Common\bin\**" />
+    <None Remove="src\UniversityAdmin.Domain\Common\Builders\**" />
+    <None Remove="src\UniversityAdmin.Shared\Helpers\bin\**" />
+    <None Remove="src\UniversityAdmin.Shared\Helpers\Constants\**" />
+    <None Remove="src\UniversityAdmin.Shared\Helpers\Exceptions\**" />
+    <None Remove="src\UniversityAdmin.Shared\Helpers\Extensions\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="src\UniversityAdmin.Domain\Common\obj\project.assets.json" />
+    <None Remove="src\UniversityAdmin.Domain\Common\obj\UniversityAdminSystem.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net10.0\UniversityAdminSystem.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net10.0\UniversityAdminSystem.GlobalUsings.g.cs" />
+    <Compile Include="obj\Release\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\net10.0\UniversityAdminSystem.AssemblyInfo.cs" />
+    <Compile Include="obj\Release\net10.0\UniversityAdminSystem.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\UniversityAdminSystem.csproj.nuget.dgspec.json" />
+    <Content Include="src\UniversityAdmin.Domain\Common\obj\project.assets.json" />
+    <Content Include="src\UniversityAdmin.Domain\Common\obj\UniversityAdminSystem.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include=".github\ISSUE_TEMPLATE\" />
+    <Folder Include=".github\PULL_REQUEST_TEMPLATE\" />
+    <Folder Include=".github\workflows\" />
+    <Folder Include="bin\Debug\net10.0\" />
+    <Folder Include="bin\Release\net10.0\" />
+    <Folder Include="database\Backups\" />
+    <Folder Include="database\Migrations\" />
+    <Folder Include="database\Scripts\" />
+    <Folder Include="database\Seed\" />
+    <Folder Include="docs\API\" />
+    <Folder Include="docs\Architecture\" />
+    <Folder Include="docs\Database\" />
+    <Folder Include="docs\Images\" />
+    <Folder Include="docs\MeetingNotes\" />
+    <Folder Include="docs\UML\" />
+    <Folder Include="obj\Debug\net10.0\refint\" />
+    <Folder Include="obj\Debug\net10.0\ref\" />
+    <Folder Include="obj\Release\net10.0\refint\" />
+    <Folder Include="obj\Release\net10.0\ref\" />
+    <Folder Include="python\analytics\" />
+    <Folder Include="python\machine_learning\" />
+    <Folder Include="python\reporting\" />
+    <Folder Include="python\utilities\" />
+    <Folder Include="scripts\build\" />
+    <Folder Include="scripts\database\" />
+    <Folder Include="scripts\deployment\" />
+    <Folder Include="scripts\utilities\" />
+    <Folder Include="src\UniversityAdmin.Application\Behaviors\" />
+    <Folder Include="src\UniversityAdmin.Application\bin\Debug\net10.0\" />
+    <Folder Include="src\UniversityAdmin.Application\bin\Release\net10.0\" />
+    <Folder Include="src\UniversityAdmin.Application\Commands\" />
+    <Folder Include="src\UniversityAdmin.Application\DTOs\" />
+    <Folder Include="src\UniversityAdmin.Application\Events\" />
+    <Folder Include="src\UniversityAdmin.Application\Factories\" />
+    <Folder Include="src\UniversityAdmin.Application\Interfaces\" />
+    <Folder Include="src\UniversityAdmin.Application\Managers\" />
+    <Folder Include="src\UniversityAdmin.Application\Mappings\" />
+    <Folder Include="src\UniversityAdmin.Application\Queries\" />
+    <Folder Include="src\UniversityAdmin.Application\Services\" />
+    <Folder Include="src\UniversityAdmin.Application\Strategies\" />
+    <Folder Include="src\UniversityAdmin.Application\Validators\" />
+    <Folder Include="src\UniversityAdmin.Domain\bin\Debug\net10.0\" />
+    <Folder Include="src\UniversityAdmin.Domain\bin\Release\net10.0\" />
+    <Folder Include="src\UniversityAdmin.Domain\Builders\" />
+    <Folder Include="src\UniversityAdmin.Domain\Common\obj\Debug\net10.0\refint\" />
+    <Folder Include="src\UniversityAdmin.Domain\Common\obj\Debug\net10.0\ref\" />
+    <Folder Include="src\UniversityAdmin.Domain\Common\obj\Release\net10.0\refint\" />
+    <Folder Include="src\UniversityAdmin.Domain\Common\obj\Release\net10.0\ref\" />
+    <Folder Include="src\UniversityAdmin.Domain\Entities\" />
+    <Folder Include="src\UniversityAdmin.Domain\Enums\" />
+    <Folder Include="src\UniversityAdmin.Domain\Events\" />
+    <Folder Include="src\UniversityAdmin.Domain\Exceptions\" />
+    <Folder Include="src\UniversityAdmin.Domain\Factories\" />
+    <Folder Include="src\UniversityAdmin.Domain\Interfaces\" />
+    <Folder Include="src\UniversityAdmin.Domain\Prototypes\" />
+    <Folder Include="src\UniversityAdmin.Domain\Specifications\" />
+    <Folder Include="src\UniversityAdmin.Domain\ValueObjects\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\Authentication\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\Authorization\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\bin\Debug\net10.0\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\bin\Release\net10.0\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\Caching\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\Email\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\Factories\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\Identity\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\Logging\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\Notifications\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\Services\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\Singletons\" />
+    <Folder Include="src\UniversityAdmin.Infrastructure\Storage\" />
+    <Folder Include="src\UniversityAdmin.Persistence\bin\Debug\net10.0\" />
+    <Folder Include="src\UniversityAdmin.Persistence\bin\Release\net10.0\" />
+    <Folder Include="src\UniversityAdmin.Persistence\Configurations\" />
+    <Folder Include="src\UniversityAdmin.Persistence\Contexts\" />
+    <Folder Include="src\UniversityAdmin.Persistence\Factories\" />
+    <Folder Include="src\UniversityAdmin.Persistence\Interceptors\" />
+    <Folder Include="src\UniversityAdmin.Persistence\Migrations\" />
+    <Folder Include="src\UniversityAdmin.Persistence\Repositories\" />
+    <Folder Include="src\UniversityAdmin.Persistence\Seed\" />
+    <Folder Include="src\UniversityAdmin.Persistence\UnitOfWork\" />
+    <Folder Include="src\UniversityAdmin.Shared\bin\Debug\net10.0\" />
+    <Folder Include="src\UniversityAdmin.Shared\bin\Release\net10.0\" />
+    <Folder Include="src\UniversityAdmin.Shared\Extensions\" />
+    <Folder Include="src\UniversityAdmin.Shared\Models\" />
+    <Folder Include="src\UniversityAdmin.Shared\Utilities\" />
+    <Folder Include="src\UniversityAdmin.Web\bin\Debug\net10.0\" />
+    <Folder Include="src\UniversityAdmin.Web\bin\Release\net10.0\" />
+    <Folder Include="src\UniversityAdmin.Web\Configuration\" />
+    <Folder Include="src\UniversityAdmin.Web\Extensions\" />
+    <Folder Include="src\UniversityAdmin.Web\Filters\" />
+    <Folder Include="src\UniversityAdmin.Web\Helpers\" />
+    <Folder Include="src\UniversityAdmin.Web\Middleware\" />
+    <Folder Include="src\UniversityAdmin.Web\ViewModels\" />
+    <Folder Include="tests\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\net10.0\UniversityAdminSystem.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net10.0\UniversityAdminSystem.assets.cache" />
+    <None Include="obj\Debug\net10.0\UniversityAdminSystem.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\Release\net10.0\UniversityAdminSystem.AssemblyInfoInputs.cache" />
+    <None Include="obj\Release\net10.0\UniversityAdminSystem.assets.cache" />
+    <None Include="obj\Release\net10.0\UniversityAdminSystem.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\UniversityAdminSystem.csproj.nuget.g.props" />
+    <None Include="obj\UniversityAdminSystem.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+</Project>

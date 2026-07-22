@@ -1,0 +1,13 @@
+<Solution>
+  <Project Path="src/UniversityAdmin.Application/UniversityAdmin.Application.csproj" />
+  <Project Path="src/UniversityAdmin.Domain/UniversityAdmin.Domain.csproj" />
+  <Project Path="src/UniversityAdmin.Infrastructure/UniversityAdmin.Infrastructure.csproj" />
+  <Project Path="src/UniversityAdmin.Persistence/UniversityAdmin.Persistence.csproj" />
+  <Project Path="src/UniversityAdmin.Shared/UniversityAdmin.Shared.csproj" />
+  <Project Path="src/UniversityAdmin.Web/UniversityAdmin.Web.csproj" />
+  <Project Path="tests/UniversityAdmin.Application.Tests/UniversityAdmin.Application.Tests.csproj" />
+  <Project Path="tests/UniversityAdmin.Domain.Tests/UniversityAdmin.Domain.Tests.csproj" />
+  <Project Path="tests/UniversityAdmin.Infrastructure.Tests/UniversityAdmin.Infrastructure.Tests.csproj" />
+  <Project Path="tests/UniversityAdmin.Web.Tests/UniversityAdmin.Web.Tests.csproj" />
+  <Project Path="UniversityAdminSystem.csproj" />
+</Solution>
