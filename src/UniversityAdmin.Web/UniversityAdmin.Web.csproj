@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UniversityAdmin.Application\UniversityAdmin.Application.csproj" />
+    <ProjectReference Include="..\UniversityAdmin.Infrastructure\UniversityAdmin.Infrastructure.csproj" />
+    <ProjectReference Include="..\UniversityAdmin.Persistence\UniversityAdmin.Persistence.csproj" />
+    <ProjectReference Include="..\UniversityAdmin.Shared\UniversityAdmin.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
